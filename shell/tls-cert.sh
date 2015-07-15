@@ -1,7 +1,7 @@
 #!/bin/sh
 
 show_usage() {
-    echo "Usage: cert-tls [OPTION]... DOMAIN [DOMAIN2]...
+    echo "Usage: tls-cert [OPTION]... DOMAIN [DOMAIN2]...
 
 Generate a self-signed x.509 certificate for use with SSL/TLS.
 
