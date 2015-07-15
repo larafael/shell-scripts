@@ -37,6 +37,7 @@ module Jekyll
         # Create the directories from the path
         FileUtils.mkpath(path) unless File.exists?(path)
 
+        # temp fix plan to implement hooks
         content="<div class='h-entry'>#{converter.convert(post.content)}</div>"
         # Create the JSON file and inject the data
         collection = Microformats2.parse(content)
