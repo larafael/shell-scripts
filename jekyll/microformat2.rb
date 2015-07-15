@@ -2,6 +2,8 @@
 # ======
 # LA Rafael
 # larafael@mailchuck.com
+# microformat2 plugin
+# Dependency: microformat2 gem
 
 module Jekyll
   require 'microformats2'
